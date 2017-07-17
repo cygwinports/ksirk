@@ -1,10 +1,13 @@
 inherit kde4
 
 NAME="ksirk"
-VERSION=15.04.3
+VERSION=17.04.3
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="KDE world domination strategy game"
 DESCRIPTION="Part of the KDE games suite"
 
-PATCH_URI="4.11.5-iris-cygwin.patch"
+PATCH_URI="
+	http://pkgs.fedoraproject.org/cgit/rpms/ksirk.git/plain/ksirk-15.12.1-iris_base64.patch
+	4.11.5-iris-cygwin.patch
+"
